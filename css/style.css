@@ -117,3 +117,48 @@ header{
     }
 }
 
+/* section 4 */
+.sect-4-container{
+    display: flex;
+    flex-direction: column;
+}
+
+.card-benefit-container{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 1rem;
+}
+.sect-4-title{
+    text-align: center;
+
+    /* debug */
+    background-color: greenyellow;
+    height: 200px;
+
+}
+
+.card-benefit{
+
+    /* debug */
+    background-color: green;
+
+}
+
+/* section 4 tablet*/
+
+@media screen and (max-width:768px) {
+    .card-benefit{
+        width: calc(50% - 1rem);
+    }
+    
+}
+
+/* section 4 mobile*/
+
+@media screen and (max-width:480px) {
+    .card-benefit {
+        width: 100%;
+    }
+}
