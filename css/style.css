@@ -218,3 +218,34 @@ header{
         width: 100%;
     }
 }
+
+/* footer*/
+.footer-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.footer-content {
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    padding: 2rem;
+
+    /* debug */
+    background-color: #222;
+}
+
+/* footer tablet*/
+@media screen and (max-width:768px) {
+    .footer-content {
+        width: 90%;
+    }
+}
+
+/* footer mobile*/
+@media screen and (max-width:480px) {
+    .footer-content {
+        width: 100%;
+    }
+}
