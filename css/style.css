@@ -188,3 +188,33 @@ header{
         flex-direction: column;
     }
 }
+
+/* section 6*/
+.sect-6-container{
+    display: flex;
+    justify-content: center;
+}
+
+.sect-6-content{
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    padding: 2rem;
+    
+    /* debug */
+    background-color: #9792e4;
+}
+
+/* section 6 tablet*/
+@media screen and (max-width:768px) {
+    .sect-6-content {
+        width: 90%;
+    }
+}
+
+/* section 6 mobile*/
+@media screen and (max-width:480px) {
+    .sect-6-content {
+        width: 100%;
+    }
+}
