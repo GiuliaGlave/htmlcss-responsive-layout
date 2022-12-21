@@ -83,3 +83,37 @@ header{
             width: 100%;
         }
 }
+
+/* section 3 */
+
+.sect-3-container{
+    display: flex;
+    flex-direction: column;
+}
+.text-partner{
+    width: 100%;
+    text-align: center;
+
+    /* debug */
+    height: 200px;
+    background-color: yellow;
+}
+
+.col-partner{
+    width: 100%;
+    display: flex;
+    
+    
+    /* debug */
+    height: 200px;
+    background-color: rgb(159, 159, 28);
+    color: black;
+}
+
+/*section 3 mobile*/
+@media screen and (max-width: 480px){
+    .col-partner{
+        flex-direction: column;
+    }
+}
+
