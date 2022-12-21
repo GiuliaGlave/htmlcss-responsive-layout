@@ -3,11 +3,27 @@
 .container {
 	max-width: 1200px;
 	margin: 0 auto;
-	padding: 1rem;
+	
 }
 
 .clearfix::after {
 	content: '';
 	clear: both;
 	display: table;
+}
+
+a{
+	background-color: aqua;
+}
+
+button{
+	border-radius: 2rem;
+}
+
+.card{
+	border-radius: 2rem;
+	width: 33%;
+	/* debug */
+		height: 200px;
+
 }
