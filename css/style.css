@@ -55,3 +55,31 @@ header{
     }
 }
 
+/* section 2 */
+
+.sect-2-container{
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+}
+
+.col-sect-2{
+    background-color: orange;
+    width: 40%;
+
+    /* debug */
+    height: 200px;
+}
+
+/*section 2 tablet + mobile*/
+
+@media screen and (max-width: 768px){
+    .sect-2-container{
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .col-sect-2 {
+            width: 100%;
+        }
+}
