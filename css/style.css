@@ -9,6 +9,23 @@ header{
     align-items: center;
 }
 
+.menu-bars{
+    display: none;
+}
+
+/* header tablet + mobile*/
+@media screen and (max-width: 780px) { 
+    .link-nav{
+        display: none;
+    }
+
+    /* NON COMPARE IL MENU
+
+    .menu-bars{
+        display: block;
+    } */
+}
+
 /* section 1 */
 
 .sect-1-container{
@@ -23,10 +40,18 @@ header{
    
 }
 
-.card {
-    width: calc(33% - 1rem);
-}
 
 .card-demo-big {
     width: calc(66% - 1rem);
 }
+
+/*section 1 mobile*/
+@media screen  and (max-width: 480px) {
+    .sect-1-container {
+        flex-direction: column;
+        }
+    .card-demo{
+        width: 100%;
+    }
+}
+

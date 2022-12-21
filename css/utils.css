@@ -3,6 +3,7 @@
 .container {
 	max-width: 1200px;
 	margin: 0 auto;
+	padding: 1rem;
 	
 }
 
@@ -22,8 +23,9 @@ button{
 
 .card{
 	border-radius: 2rem;
-	width: 33%;
+	width: calc(33% - 1rem);
 	/* debug */
 		height: 200px;
+		color: red;
 
 }
