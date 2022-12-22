@@ -73,7 +73,7 @@ ul li{
     width: 40%;
 
     /* debug */
-    height: 200px;
+    height: 600px;
 }
 
 /*section 2 tablet + mobile*/
@@ -86,7 +86,7 @@ ul li{
 
     .col-sect-2 {
             width: 100%;
-        }
+    }
 }
 
 /* section 3 */
@@ -100,7 +100,6 @@ ul li{
     text-align: center;
 
     /* debug */
-    height: 200px;
     background-color: yellow;
 }
 
@@ -110,7 +109,6 @@ ul li{
     
     
     /* debug */
-    height: 200px;
     background-color: rgb(159, 159, 28);
     color: black;
 }
@@ -140,7 +138,7 @@ ul li{
 
     /* debug */
     background-color: greenyellow;
-    height: 200px;
+    height: 600px;
 
 }
 
@@ -177,14 +175,14 @@ ul li{
 
     /* debug */
     background-color: lightskyblue;
-    height: 200px;
+    height: 600px;
 }
 
 .sect-5-img {
 
     /* debug */
     background-color: rgb(22, 136, 206);
-    height: 200px;
+    height: 600px;
 }
 
 /* section 5 mobile*/
