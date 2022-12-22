@@ -1,5 +1,9 @@
 /* Utils */
 
+body{
+	font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
 .container {
 	max-width: 1200px;
 	margin: 0 auto;
@@ -18,22 +22,13 @@ section:nth-child(even) {
 	background:#9792e4;
 }
 
-.link-nav > a{
+.link-nav > ul> li > a {
 	text-decoration: none;
-	color: inherit;
-}
-
-/* buttons */
-button{
-	border-radius: 2rem;
-	border: none;
-}
-
-.card > button {
-	padding: 0.5rem 2.5rem;
-	font-weight: 600;
 	color: white;
 }
+
+
+
 
 
 .card{
@@ -53,7 +48,7 @@ button{
 
 /* titles */
 .title-card, .title-column, .title-section, .text-big{
-	font-weight: 800;
+	font-weight: bold;
 }
 
 .title-card{
@@ -71,4 +66,18 @@ button{
 
 .text-big{
 	font-size: 3rem;
+}
+
+/* buttons */
+button {
+	border-radius: 2rem;
+	padding: 0.5rem 1rem;
+	border: none;
+	font-weight: bold;
+}
+
+.card>button {
+	padding: 0.5rem 2.5rem;
+	font-weight: 600;
+	color: white;
 }

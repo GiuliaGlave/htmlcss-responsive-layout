@@ -5,15 +5,16 @@ header{
 
 nav > .container{
     display: flex;
+    margin-left: 1rem;
     justify-content: space-between;
     align-items: center;
     color: white;
 }
 
 ul li{
-    color: white;
     list-style: none;
     display: inline-block;
+    margin: 0 1rem;
 }
 
 .menu-bars{
