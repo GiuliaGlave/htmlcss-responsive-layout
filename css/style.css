@@ -44,7 +44,7 @@ ul li{
 
 .sect-1-container > .card{
     background-color: #b5ddff;
-    padding: 1rem;
+    padding: 0 1rem;
 }
 
 .card-demo-big {
@@ -54,17 +54,15 @@ ul li{
 
 .card-demo-big  img{
     width: 80%;
-    position: relative;
-    top: 1rem;
-    
 }
 
 .card-demo-big-text{
     width: 50%;
     display: flex;
     flex-direction: column;
-    justify-content: space-around;
+    justify-content: center;
     align-items: flex-start;
+    gap: 1rem;
 }
 
 .sect-1-container h1, 
@@ -85,7 +83,7 @@ ul li{
     width: 50%;
     display: flex;
     justify-content: center;
-    align-items: center;
+    align-items: flex-end;
 }
 
 .sect-1-container p{
@@ -100,15 +98,43 @@ ul li{
     justify-content: center;
     gap: 1rem;
     text-align: center;
+    padding: 1rem;
 }
 
-/*section 1 mobile*/
+/*section 1 responsive*/
+@media screen and (max-width: 768px){
+    .card-demo-big{
+        flex-direction: column;
+        gap: 2rem;
+    }
+
+    .card-demo-big-text{
+        width: 100%;
+        gap: 1rem;
+        padding-top: 2rem;
+    }
+
+    .card-demo-big-img{
+        width: 80%;
+        justify-content: flex-start;
+    }
+}
+
 @media screen  and (max-width: 480px) {
     .sect-1-container {
         flex-direction: column;
-        }
+        align-items: center;
+    }
+
     .card-demo{
         width: 100%;
+    }
+
+    .card-demo-big {
+    width: 100%;
+    }
+    .card-demo-big-img{
+        
     }
 }
 

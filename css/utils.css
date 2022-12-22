@@ -31,9 +31,7 @@ section:nth-child(even) {
 .card{
 	border-radius: 2rem;
 	width: calc(33% - 1rem);
-	/* debug */
-		color: black;
-
+	padding: 1rem;
 }
 
 .pro-pic{
@@ -45,7 +43,7 @@ section:nth-child(even) {
 
 /* titles */
 .title-card, .title-column, .title-section, .text-big{
-	font-weight: bold;
+	font-weight: 700;
 }
 
 .title-card{
