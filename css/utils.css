@@ -1,7 +1,7 @@
 /* Utils */
 
 body{
-	font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+	font-family: 'PT Sans', sans-serif;
 }
 
 .container {
@@ -26,9 +26,6 @@ section:nth-child(even) {
 	text-decoration: none;
 	color: white;
 }
-
-
-
 
 
 .card{
@@ -76,8 +73,14 @@ button {
 	font-weight: bold;
 }
 
-.card>button {
+.card  button {
 	padding: 0.5rem 2.5rem;
 	font-weight: 600;
 	color: white;
+	letter-spacing: 0.2em;
+}
+
+/* text */
+p{
+	line-height: 1.5;
 }
