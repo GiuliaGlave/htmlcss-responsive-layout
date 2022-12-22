@@ -1,12 +1,19 @@
 header{
-    background-color: blue;
+    background-color: #0084fd;
    
 }
 
-.header-content{
+nav{
     display: flex;
     justify-content: space-between;
     align-items: center;
+    color: white;
+}
+
+ul li{
+    color: white;
+    list-style: none;
+    display: inline-block;
 }
 
 .menu-bars{
@@ -19,11 +26,9 @@ header{
         display: none;
     }
 
-    /* NON COMPARE IL MENU
-
     .menu-bars{
         display: block;
-    } */
+    }
 }
 
 /* section 1 */
