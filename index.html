@@ -18,43 +18,44 @@
 
 <body>
 
-	<header class="container">
+	<header>
 
-		<nav class="header-content">
+		<nav>
+			<div class="container">
+				<div>
+					<img src="./img/logo.png" alt="logo">
+				</div>
+				
+				<div class="link-nav">
+					<ul>
+						<li><a href="#">Planning</a></li>
+						<li><a href="#">Testimonial</a></li>
+						<li><a href="#">Features</a></li>
+						<li><a href="#">About Us</a></li>
+						<li><button class="btn-nav">Get Started</button></li>
+					</ul>
+				</div>
 
-			<div>
-				<img src="./img/logo.png" alt="logo">
-			</div>
-			
-			<div class="link-nav">
-				<ul>
-					<li><a href="#">Planning</a></li>
-					<li><a href="#">Testimonial</a></li>
-					<li><a href="#">Features</a></li>
-					<li><a href="#">About Us</a></li>
-					<li><button class="btn-nav">Get Started</button></li>
-				</ul>
-			</div>
-
-			<div class="menu-bars">
+				<div class="menu-bars">
 					<i class="fa-solid fa-bars"></i>
-			</div>
+				</div>
+			</div>	
 
 		</nav>
 
 	</header>
 
-	<main class="container">
+	<main>
 		<section> <!-- sect 1 -->
-			<div class="sect-1-container">
+			<div class=" container sect-1-container">
 
-				<div class="card card-demo card-demo-big">
-					<div>
-					<h1>
+				<div class="card card-demo-big">
+					<div class="card">
+						<h1 class="title-card">
 						Get a demo application
-					</h1>
+						</h1>
 
-					<p>
+						<p>
 						Lorem ipsum dolor, sit amet consectetur adipisicing elit. Expedita nostrum impedit voluptate et minima ipsum eius
 						minus voluptatem suscipit veniam.
 					</p>
@@ -73,8 +74,8 @@
 					<div class="icon">
 						&star;
 					</div>
-					<h1>
-						Get a demo application
+					<h1 class="title-card">
+						Clean Code
 					</h1>
 					<p>
 						Lorem ipsum dolor, sit amet consectetur adipisicing elit. Expedita nostrum impedit voluptate et minima ipsum eius
@@ -86,8 +87,8 @@
 					<div class="icon">
 						&star;
 					</div>
-					<h1>
-						Get a demo application
+					<h1 class="title-card">
+						Web Design
 					</h1>
 					<p>
 						Lorem ipsum dolor, sit amet consectetur adipisicing elit. Expedita nostrum impedit voluptate et minima ipsum eius
@@ -99,8 +100,8 @@
 					<div class="icon">
 						&star;
 					</div>
-					<h1>
-						Get a demo application
+					<h1 class="title-card">
+						Developement
 					</h1>
 					<p>
 						Lorem ipsum dolor, sit amet consectetur adipisicing elit. Expedita nostrum impedit voluptate et minima ipsum eius
@@ -112,8 +113,8 @@
 					<div class="icon">
 						&star;
 					</div>
-					<h1>
-						Get a demo application
+					<h1 class="title-card">
+						Branding
 					</h1>
 					<p>
 						Lorem ipsum dolor, sit amet consectetur adipisicing elit. Expedita nostrum impedit voluptate et minima ipsum eius minus voluptatem suscipit veniam.
@@ -124,7 +125,7 @@
 		</section>
 
 		<section> <!-- sect 2 -->
-			<div class="sect-2-container">
+			<div class="container sect-2-container">
 
 				<div class="col-sect-2">
 
@@ -144,7 +145,7 @@
 
 					<img src="./img/planning2.png" alt="">
 
-					<div class="title-column">
+					<div class="title-card">
 						App Developement
 					</div>
 					
@@ -162,7 +163,7 @@
 		</section>
 
 		<section> <!-- sect 3 -->
-			<div class="sect-3-container">
+			<div class="container sect-3-container">
 				
 				<div class="text-partner">
 					<p>
@@ -244,11 +245,11 @@
 		</section>
 
 		<section> <!-- sect 4 -->
-			<div class="sect-4-container">
+			<div class="container sect-4-container">
 				
-				<div class="sect-4-title">
+				<h1 class="title-section">
 					Benefits of working with us
-				</div>
+				</h1>
 
 				<div class="card-benefit-container">
 					<!-- card 1 -->
@@ -346,7 +347,7 @@
 		</section>
 
 		<section> <!-- sect 5 -->
-			<div class="sect-5-container">
+			<div class="container sect-5-container">
 				
 				<div class="sect-5-text">
 					<h1 class="text-big">About Us</h1>
@@ -368,6 +369,8 @@
 						I help companies Lorem ipsum dolor sit amet consectetur adipisicing elit.
 					</div>
 
+					<button>&star; Find me on Linkedin</button>
+
 					<div>
 						<i class="fa-solid fa-quote-left"></i>
 					</div>
@@ -377,7 +380,7 @@
 		</section>
 
 		<section> <!-- sect 6 -->
-			<div class="sect-6-container">
+			<div class="container sect-6-container">
 				
 				<div class="sect-6-content">
 					<p>
@@ -398,9 +401,9 @@
 					<button>Get Started</button>
 
 					<ul>
-						<li><a href="#">2021 Boolean</a></li>
-						<li><a href="#">&bullet; Classe XX</a></li>
-						<li><a href="#">&bullet; Privacy Policy</a></li>
+						<li>2021 Boolean &bullet;</li>
+						<li> Classe XX &bullet;</li>
+						<li><a href="#"> Privacy Policy</a></li>
 					</ul>
 
 				</div>
@@ -410,22 +413,23 @@
 
 	</main>
 
-	<footer class="footer-container">
-
+	<footer>
+		<div class="container">
 			<div class="footer-content">
 				<p>
-					Lorem ipsum dolor sit amet consectetur adipisicing elit. Asperiores eos dolorum sunt rem similique amet expedita consequuntur? Quod, officia.
+					Lorem ipsum dolor sit amet consectetur adipisicing elit. Asperiores eos dolorum sunt rem similique amet expedita
+					consequuntur? Quod, officia.
 				</p>
 			</div>
-
+			
 			<div class="footer-content">
 				<p>
-					<a href="#">Lorem ipsum</a> 
-					dolor sit amet consectetur adipisicing. 
+					<a href="#">Lorem ipsum</a>
+					dolor sit amet consectetur adipisicing.
 					<a href="#">Boolean Carreers</a>
 				</p>
 			</div>
-
+		</div>
 	</footer>
 
 </body>

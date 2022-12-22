@@ -3,7 +3,7 @@ header{
    
 }
 
-nav{
+nav > .container{
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -40,9 +40,8 @@ ul li{
     gap: 1rem;
 }
 
-.card-demo{
-    background-color: red;
-   
+.sect-1-container > .card{
+    background-color: #b5ddff;
 }
 
 
@@ -69,7 +68,6 @@ ul li{
 }
 
 .col-sect-2{
-    background-color: orange;
     width: 40%;
 
     /* debug */
@@ -106,10 +104,9 @@ ul li{
 .col-partner{
     width: 100%;
     display: flex;
-    
+    background-color: #9792e4;
     
     /* debug */
-    background-color: rgb(159, 159, 28);
     color: black;
 }
 
@@ -132,13 +129,6 @@ ul li{
     flex-wrap: wrap;
     justify-content: center;
     gap: 1rem;
-}
-.sect-4-title{
-    text-align: center;
-
-    /* debug */
-    background-color: greenyellow;
-
 }
 
 .card-benefit{
@@ -220,7 +210,11 @@ ul li{
 }
 
 /* footer*/
-.footer-container {
+footer{
+    background-color: #222;
+    color: white;
+}
+footer > .container {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -233,7 +227,7 @@ ul li{
     padding: 2rem;
 
     /* debug */
-    background-color: #222;
+   
 }
 
 /* footer tablet*/

@@ -4,7 +4,8 @@
 	max-width: 1200px;
 	margin: 0 auto;
 	padding: 1rem;
-	
+	display: flex;
+	justify-content: center;
 }
 
 .clearfix::after {
@@ -13,19 +14,32 @@
 	display: table;
 }
 
-a{
-	background-color: aqua;
+section:nth-child(even) {
+	background:#9792e4;
 }
 
+.link-nav > a{
+	text-decoration: none;
+	color: inherit;
+}
+
+/* buttons */
 button{
 	border-radius: 2rem;
+	border: none;
 }
+
+.card > button {
+	padding: 0.5rem 2.5rem;
+	font-weight: 600;
+	color: white;
+}
+
 
 .card{
 	border-radius: 2rem;
 	width: calc(33% - 1rem);
 	/* debug */
-		height: 200px;
 		color: black;
 
 }
@@ -35,4 +49,26 @@ button{
 	aspect-ratio: 1;
 	border-radius: 50%;
 	object-fit: cover;
+}
+
+/* titles */
+.title-card, .title-column, .title-section, .text-big{
+	font-weight: 800;
+}
+
+.title-card{
+	font-size: 1.1em;
+}
+
+.title-column{
+	font-size: 1.5em;
+}
+
+.title-section {
+	font-size: 2em;
+	text-align: center;
+}
+
+.text-big{
+	font-size: 3rem;
 }
