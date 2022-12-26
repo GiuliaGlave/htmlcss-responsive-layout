@@ -305,19 +305,37 @@ ul li{
 /* section 5*/
 .sect-5-container{
     display: flex;
+    align-items: center;
+    justify-content: space-around;
 }
 
 .sect-5-text{
-
-    /* debug */
-    background-color: lightskyblue;
+    width: 55%;
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+   
 }
 
 .sect-5-img {
-
-    /* debug */
-    background-color: rgb(22, 136, 206);
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 2rem;
+    width: 20%;
+    color: #9792e4;
+    position: relative;
 }
+
+.sect-5-img button{
+    color: white;
+    background-color: #9792e4;
+}
+ .quote{
+    position: absolute;
+    right: 5%;
+    font-size: 4rem;
+ }
 
 /* section 5 mobile*/
 @media screen and (max-width:480px) {
