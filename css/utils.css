@@ -36,7 +36,7 @@ section:nth-child(even) {
 
 .pro-pic{
 	height: 10rem;
-	aspect-ratio: 1;
+	width: 10rem;
 	border-radius: 50%;
 	object-fit: cover;
 }

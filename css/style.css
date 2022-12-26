@@ -208,26 +208,38 @@ ul li{
 /* section 3 */
 
 .sect-3-container{
-    display: flex;
+        display: flex;
     flex-direction: column;
+    gap: 2rem;
 }
-.text-partner{
-    width: 100%;
-    text-align: center;
 
-    /* debug */
-    background-color: yellow;
+.text-partner{
+    display: flex;
+    width: 100%;
+    gap: 2rem;
+    text-align: center;
+    flex-direction: column;
+
+}
+
+.title-section{
+    color: #9792e4;
 }
 
 .col-partner{
     width: 100%;
     display: flex;
     background-color: #9792e4;
-    
-    /* debug */
+    border-radius: 2rem;
+    gap: 2rem;
     color: black;
+    align-items: center;
+    padding: 2rem;
+    color: white;
 }
-
+.col-partner  p {
+    padding: 0.5rem;
+}
 /*section 3 mobile*/
 @media screen and (max-width: 480px){
     .col-partner{
