@@ -63,6 +63,12 @@ section:nth-child(even) {
 	color: #9792e4;
 }
 
+.xl-text{
+	color: #fdc15f;
+	font-size: 4.5rem;
+	font-weight: bold;
+}
+
 /* buttons */
 button {
 	border-radius: 2rem;
