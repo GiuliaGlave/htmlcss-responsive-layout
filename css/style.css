@@ -319,7 +319,7 @@ ul li{
 
 .sect-5-img {
     display: flex;
-    align-items: center;
+    align-items: flex-start;
     flex-direction: column;
     gap: 2rem;
     width: 20%;
@@ -330,6 +330,7 @@ ul li{
 .sect-5-img button{
     color: white;
     background-color: #9792e4;
+    font-size: small;
 }
  .quote{
     position: absolute;
