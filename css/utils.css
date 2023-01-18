@@ -34,8 +34,9 @@ section:nth-child(even) {
 	padding: 1rem;
 }
 
-.pro-pic{
-	width: 100%;
+.pro-pic {
+	width: 30rem;
+	aspect-ratio: 1;
 	border-radius: 50%;
 	object-fit: cover;
 }
@@ -56,6 +57,10 @@ section:nth-child(even) {
 .title-section {
 	font-size: 2em;
 	text-align: center;
+}
+
+.text-uppercase{
+	font-weight: bold;
 }
 
 .text-big{
