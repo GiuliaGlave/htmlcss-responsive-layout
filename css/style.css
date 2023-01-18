@@ -307,7 +307,7 @@ ul li{
 .sect-5-container{
     display: flex;
     align-items: flex-start;
-    justify-content: space-around;
+    gap: 2rem;
     padding-top: 5rem;
 }
 
